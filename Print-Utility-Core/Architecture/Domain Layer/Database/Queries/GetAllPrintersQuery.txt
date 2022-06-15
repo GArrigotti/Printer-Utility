@@ -1,0 +1,10 @@
+﻿SELECT
+		printer.[Id]
+	,	printer.[Building]
+	,	printer.[Floor]
+	,	printer.[Name]
+	,	printer.[Description]
+	,	printer.[Share]
+
+FROM
+		[InformationTechnology].[utility].[Printers] printer

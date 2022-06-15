@@ -1,0 +1,13 @@
+﻿INSERT INTO [InformationTechnology].[utility].[Printers] (
+		[Building]
+	,	[Floor]
+	,	[Name]
+	,	[Description]
+	,	[Share]
+) VALUES (
+		@Building
+	,	@Floor
+	,	@Name
+	,	@Description
+	,	@Share
+)

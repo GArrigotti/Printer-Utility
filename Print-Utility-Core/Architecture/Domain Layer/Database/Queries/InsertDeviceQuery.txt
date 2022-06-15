@@ -1,0 +1,23 @@
+﻿INSERT INTO [InformationTechnology].[utility].[Devices] (
+		[CN]
+	,	[UNCName]
+	,	[URL]
+	,	[Server]
+	,	[Path]
+	,	[Driver]
+	,	[Category]
+	,	[Name]
+	,	[PortName]
+	,	[Location]
+) VALUES (
+		@CN
+	,	@UNCName
+	,	@URL
+	,	@Server
+	,	@Path
+	,	@Driver
+	,	@Category
+	,	@Name
+	,	@PortName
+	,	@Location
+)

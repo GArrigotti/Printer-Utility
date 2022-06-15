@@ -1,0 +1,13 @@
+﻿CREATE TABLE [InformationTechnology].[utility].[Devices] (
+		Id				INT PRIMARY KEY IDENTITY(1, 1) NOT NULL
+	,	CN				NVARCHAR(MAX)
+	,	UNCName			NVARCHAR(MAX)
+	,	URL				NVARCHAR(MAX)
+	,	Server			NVARCHAR(MAX)
+	,	Path			NVARCHAR(MAX)
+	,	Driver			NVARCHAR(MAX)
+	,	Category		NVARCHAR(MAX)
+	,	Name			NVARCHAR(MAX) NOT NULL
+	,	PortName		NVARCHAR(MAX) NOT NULL
+	,	Location		NVARCHAR(MAX) NOT NULL
+)

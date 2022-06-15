@@ -1,0 +1,9 @@
+{
+  "OnPremise": {
+    "dbConnection": "",
+    "Url": "",
+    "Username": "",
+    "Password": "",
+    "Domain": ""
+  }
+}
